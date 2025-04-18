@@ -1,32 +1,46 @@
+
+
+
 <!doctype html>
 <html lang="en" data-bs-theme="light" data-footer="dark">
 <head>
 
 
     <meta charset="utf-8">
-    <title>CapBeast</title>
+    <title>Deveon Dynamics</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link rel="icon" type="image/x-icon" href="{{ asset('assetsCommon/images/logo-dark.png') }}" />
-
-    <link href="{{ asset('assetsMain/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assetsMain/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assetsMain/css/app.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assetsMain/css/repeatClass.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('assetsMain/css/custom.css') }}" rel="stylesheet" type="text/css" />
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.4.47/css/materialdesignicons.min.css" integrity="sha512-/k658G6UsCvbkGRB3vPXpsPHgWeduJwiWGPCGS14IQw3xpr63AEMdA8nMYG2gmYkXitQxDTn6iiK/2fD4T87qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="shortcut icon" href="{{ asset('assets/img/favicon.svg')}}">
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}">
+    <!--<< Font Awesome.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.css')}}">
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css')}}">
+    <!--<< Magnific Popup.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css')}}">
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.css')}}">
+    <!--<< Jquery.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/jquery-ui.css')}}">
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css')}}">
+    <!--<< Nice Select.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css')}}">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css')}}">
+    <!--<< Style.css >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/custom.css')}}">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" 
+    integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
@@ -62,24 +76,51 @@
 
 
 
-    <!-- JAVASCRIPT -->
-    <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{ asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
-    <script src="{{ asset('assets/js/plugins.js')}}"></script>
-
-    <!-- isotope-layout -->
-    <script src="{{ asset('assets/libs/isotope-layout/isotope.pkgd.min.js')}}"></script>
-
-    <!--Swiper slider js-->
-    <script src="{{ asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
-
-    <!-- Countdown js -->
-    <script src="{{ asset('assets/js/pages/coming-soon.init.js')}}"></script>
-
-    <script src="{{ asset('assets/js/frontend/landing-index.init.js')}}"></script>
-
-    <script src="{{ asset('assets/js/frontend/menu.init.js')}}"></script>
-
+<!--<< All JS Plugins >>-->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="{{ asset('assets/js/jquery-3.7.1.min.js')}}"></script>
+<!--<< Jquery ui Js >>-->
+<script src="{{ asset('assets/js/jquery-ui.js')}}"></script>
+<!--<< Imagesloaded Js >>-->
+<script src="{{ asset('assets/js/imagesloaded.min.js')}}"></script>
+<!--<< Viewport Js >>-->
+<script src="{{ asset('assets/js/viewport.jquery.js')}}"></script>
+<!--<< Bootstrap Js >>-->
+<script src="{{ asset('assets/js/bootstrap.bundle.min.js')}}"></script>
+<!--<< Gsap Js >>-->
+<script src="{{ asset('assets/js/gsap/gsap.js')}}"></script>
+<!--<< Gsap Scroll To Pluging Js >>-->
+<script src="{{ asset('assets/js/gsap/gsap-scroll-to-plugin.js')}}"></script>
+<!--<< Gsap Scroll Smoother Js >>-->
+<script src="{{ asset('assets/js/gsap/gsap-scroll-smoother.js')}}"></script>
+<!--<< Gsap Scroll Trigger Js >>-->
+<script src="{{ asset('assets/js/gsap/gsap-scroll-trigger.js')}}"></script>
+<!--<< Gsap Split Text Js >>-->
+<script src="{{ asset('assets/js/gsap/gsap-split-text.js')}}"></script>
+<!--<< Gsap zotect Js >>-->
+<script src="{{ asset('assets/js/gsap/gsap-zotect.js')}}"></script>
+<!--<< Nice Select Js >>-->
+<script src="{{ asset('assets/js/jquery.nice-select.min.js')}}"></script>
+<!--<< Isotope Js >>-->
+<script src="{{ asset('assets/js/isotope.js')}}"></script>
+<!--<< Waypoints Js >>-->
+<script src="{{ asset('assets/js/jquery.waypoints.js')}}"></script>
+<!--<< Counterup Js >>-->
+<script src="{{ asset('assets/js/jquery.counterup.min.js')}}"></script>
+<!--<< appear Js >>-->
+<script src="{{ asset('assets/js/jquery.appear.min.js')}}"></script>
+<!--<< Ajax Js >>-->
+<script src="{{ asset('assets/js/ajax-mail.js')}}"></script>
+<!--<< Swiper Slider Js >>-->
+<script src="{{ asset('assets/js/swiper-bundle.min.js')}}"></script>
+<!--<< MeanMenu Js >>-->
+<script src="{{ asset('assets/js/jquery.meanmenu.min.js')}}"></script>
+<!--<< Magnific Popup Js >>-->
+<script src="{{ asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
+<!--<< Wow Animation Js >>-->
+<script src="{{ asset('assets/js/wow.min.js')}}"></script>
+<!--<< Main.js >>-->
+<script src="{{ asset('assets/js/main.js')}}"></script>
 </body>
 
 </html>

@@ -1,0 +1,151 @@
+.hero-section {
+    position: relative;
+    height: 100vh;
+    min-height: 700px;
+    overflow: hidden;
+}
+
+.hero-slider, 
+.swiper-wrapper, 
+.swiper-slide {
+    height: 100%;
+}
+
+.hero-inner {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.full-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.7) 30%, rgba(0,0,0,0.4) 100%);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    max-width: 800px;
+}
+
+.hero-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.5px;
+}
+
+.text-highlight {
+    color: #2196f3;
+    font-style: italic;
+}
+
+.hero-subtext {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2.5rem;
+    max-width: 80%;
+}
+
+.hero-button .theme-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    background-color:none;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 18px;
+}
+
+.swiper-pagination {
+    bottom: 30px !important;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+    width: 30px;
+    border-radius: 6px;
+}
+
+@media (max-width: 1199px) {
+    .hero-heading {
+        font-size: 3.5rem;
+    }
+    
+    .hero-subtext {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        min-height: 600px;
+    }
+    
+    .hero-heading {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtext {
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
+    
+    .hero-button .theme-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+}
