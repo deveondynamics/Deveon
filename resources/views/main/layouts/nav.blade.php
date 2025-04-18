@@ -36,122 +36,19 @@
     <div id="header-sticky" class="header-2 style-3">
         <div class="container-fluid">
             <div class="mega-menu-wrapper">
-                <div class="header-main ">
+                <div class="header-main">
                     <div class="header-left">
                         <div class="logo">
                             <a href="index.html" class="header-logo">
-                                <img src="{{ asset('assets/img/logo/white-logo-2.png')}}" alt="logo-img">
+                                <img src="{{ asset('assets/img/logo/white-logo-2.png')}}" alt="DeveonDynamics">
                             </a>
                         </div>
                         <div class="mean__menu-wrapper">
                             <div class="main-menu">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li class="has-dropdown active menu-thumb">
-                                            <a href="index.html">
-                                                Home
-                                                <i class="fas fa-angle-down"></i>
-                                            </a>
-                                            <ul class="submenu has-homemenu">
-                                                <li>
-                                                    <div class="homemenu-items">
-                                                        <div class="homemenu">
-                                                            <div class="homemenu-thumb">
-                                                                <img src="{{ asset('assets/img/header/home-1.jpg')}}"
-                                                                    alt="img">
-                                                                <div class="demo-button">
-                                                                    <a href="index.html" class="theme-btn">
-                                                                        <div class="theme-btn-inner">View Demo
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="homemenu-content text-center">
-                                                                <h4 class="homemenu-title">
-                                                                    Home 01
-                                                                </h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu">
-                                                            <div class="homemenu-thumb mb-15">
-                                                                <img src="{{ asset('assets/img/header/home-2.jpg')}}"
-                                                                    alt="img">
-                                                                <div class="demo-button">
-                                                                    <a href="index-2.html" class="theme-btn">
-                                                                        <div class="theme-btn-inner">View Demo
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="homemenu-content text-center">
-                                                                <h4 class="homemenu-title">
-                                                                    Home 02
-                                                                </h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu">
-                                                            <div class="homemenu-thumb mb-15">
-                                                                <img src="{{ asset('assets/img/header/home-3.jpg')}}"
-                                                                    alt="img">
-                                                                <div class="demo-button">
-                                                                    <a href="index-3.html" class="theme-btn">
-                                                                        <div class="theme-btn-inner">View Demo
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="homemenu-content text-center">
-                                                                <h4 class="homemenu-title">
-                                                                    Home 03
-                                                                </h4>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu">
-                                                            <div class="homemenu-thumb mb-15">
-                                                                <img src="{{ asset('assets/img/header/home-4.jpg')}}"
-                                                                    alt="img">
-                                                                <div class="demo-button">
-                                                                    <a href="index-4.html" class="theme-btn">
-                                                                        <div class="theme-btn-inner">View Demo
-                                                                        </div>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="homemenu-content text-center">
-                                                                <h4 class="homemenu-title">
-                                                                    Home 04
-                                                                </h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown active d-xl-none">
-                                            <a href="#" class="border-none">
-                                                Home
-                                                <i class="fas fa-angle-down"></i>
-                                            </a>
-                                            <ul class="submenu">
-                                                <li><a href="index.html">Home 01</a></li>
-                                                <li><a href="index-2.html">Home 02</a></li>
-                                                <li><a href="index-3.html">Home 03</a></li>
-                                                <li><a href="index-4.html">Home 04</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                Pages
-                                                <i class="fas fa-angle-down"></i>
-                                            </a>
-                                            <ul class="submenu">
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="teams-details.html">Team Details</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="faqs.html">FAQS</a></li>
-                                                <li><a href="404.html">404</a></li>
-                                            </ul>
+                                        <li class="active">
+                                            <a href="index.html">Home</a>
                                         </li>
                                         <li>
                                             <a href="#">
@@ -159,29 +56,49 @@
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="services.html">Services Grid</a></li>
-                                                <li><a href="services-details.html">Service Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown">
-                                            <a href="#">
-                                                Projects
-                                                <i class="fas fa-angle-down"></i>
-                                            </a>
-                                            <ul class="submenu">
-                                                <li><a href="projects.html">Projects Grid</a></li>
-                                                <li><a href="projects-details.html">Project Details</a></li>
+                                                <li><a href="#">Digital Consulting</a></li>
+                                                <li><a href="#">Web Development</a></li>
+                                                <li><a href="#">Mobile Apps</a></li>
+                                                <li><a href="#">UI/UX Design</a></li>
+                                                <li><a href="#">Cloud Services</a></li>
+                                                <li><a href="#">Cybersecurity</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <a href="#">
-                                                News
+                                                Solutions
                                                 <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
-                                                <li><a href="blogs-grid.html">Blog Grid</a></li>
-                                                <li><a href="blog-news.html">Blog & News</a></li>
-                                                <li><a href="blogs-details.html">Blog Details</a></li>
+                                                <li><a href="#">Enterprise Solutions</a></li>
+                                                <li><a href="#">E-Commerce</a></li>
+                                                <li><a href="#">Healthcare</a></li>
+                                                <li><a href="#">Finance</a></li>
+                                                <li><a href="#">Education</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Insights
+                                                <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="#">Case Studies</a></li>
+                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="#">Whitepapers</a></li>
+                                                <li><a href="#">News</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                About
+                                                <i class="fas fa-angle-down"></i>
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="#">Company</a></li>
+                                                <li><a href="#">Leadership</a></li>
+                                                <li><a href="#">Careers</a></li>
+                                                <li><a href="#">Partnerships</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -195,7 +112,7 @@
                     <div class="header-right">
                         <a href="#0" class="search-trigger search-icon"><i class="fal fa-search"></i></a>
                         <div class="header-button d-none d-md-block">
-                            <a href="" class="theme-btn black-btn">
+                            <a href="contact.html" class="theme-btn black-btn">
                                 Get In Touch
                             </a>
                         </div>

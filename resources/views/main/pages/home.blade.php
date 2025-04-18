@@ -21,7 +21,7 @@
                                 <div class="row">
                                     <div class="col-xl-8 col-lg-10 col-md-12">
                                         <div class="hero-content">
-                                            <h1 class="hero-heading">
+                                            <h1 class="hero-heading animated-heading">
                                                 We <span class="text-highlight">reimagine</span> tomorrow
                                             </h1>
                                             <p class="hero-subtext">Driving growth and molding the future through transformative change</p>
@@ -47,7 +47,7 @@
                                 <div class="row">
                                     <div class="col-xl-8 col-lg-10 col-md-12">
                                         <div class="hero-content">
-                                            <h1 class="hero-heading">
+                                            <h1 class="hero-heading animated-heading">
                                                 AI that <span class="text-highlight">dares</span> to disrupt
                                             </h1>
                                             <p class="hero-subtext">Hyper-personalization at the pace of your thoughts</p>
