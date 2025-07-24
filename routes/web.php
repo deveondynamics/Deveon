@@ -6,12 +6,19 @@ use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\Common\DashboardController;
 use App\Http\Controllers\Common\RoomController;
+use App\Http\Controllers\Frontend\HomeController;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', function () {
-    return view('auth.Login');
-});
+
+
+    Route::get('/', [HomeController::class, 'index'])->name('home');
+
+
+
+// Route::get('/', function () {
+//     return view('auth.Login');
+// });
 
 Route::group(['middleware' => ['guest']], function () {
 
